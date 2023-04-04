@@ -49,5 +49,8 @@
     transform: translateX(-400%);
   }
 }
+.header {
+  background-color: blue;
+}
 
 /*# sourceMappingURL=style.css.map */
