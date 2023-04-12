@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Lien vers le fichier CSS -->
-    <link rel="stylesheet" href="./style/style.css">
+  <!-- Lien vers le fichier CSS -->
+  <link rel="stylesheet" href="./style/style.css">
   <!-- Script pour initialiser le carousel -->
   <script>
     $(document).ready(function () {
@@ -32,6 +32,7 @@
       <h1 class="p-2"><a href="index.html">Entre girls Beauty</a></h1>
     </div>
     <div class="btn btn-redirect p-2">
+      <button class="btn btn-primary">Contact</button>
       <button class="btn btn-primary">A propos</button>
       <button class="btn btn-primary">Réservation </button>
     </div>
@@ -65,43 +66,53 @@
     </a>
   </div>
 
-  <!-- TARIFS -->
-  <div class="list-tarifs d-flex ">
-    <h2 class="tarifs-title h2">Nos tarifs</h2>
+  <div class="d-flex flex-column align-items-center">
+    <div class="test-image container-fluid bg-image">
+      <div class="overlay"></div>
+      <!-- TARIFS -->
+      <div class="list list-tarifs d-flex flex-column align-items-center">
+        <h2 class="tarifs-title h2">Nos tarifs</h2>
 
-    <div class="item-tarif visage">
-      <h3 class="visage-title">Soins du visage</h3>
-    </div>
+        <div class="item-tarif visage">
+          <h3 class="visage-title">Soins du visage</h3>
+          <p>Les soins sont personnalisé en fonction de vos besoins.</p>
+          <p>La création des cosmétiques est réalisée devant vous 100% naturelles.</p>
+          <p>Une expérience unique d'1h30 à seulement 70€</p>
+        </div>
 
-    <div class="item-tarif corps">
-      <h3 class="corps-title">Soins corps</h3>
-    </div>
+        <div class="item-tarif corps">
+          <h3 class="corps-title">Soins corps</h3>
+        </div>
 
-    <div class="item-tarif epilation">
-      <h3 class="epilations-title">Épilations</h3>
-    </div>
+        <div class="item-tarif epilation">
+          <h3 class="epilations-title">Épilations</h3>
+        </div>
 
-    <div class="item-tarif regard">
-      <h3 class="regard-title">Beauté du regard</h3>
-    </div>
+        <div class="item-tarif regard">
+          <h3 class="regard-title">Beauté du regard</h3>
+        </div>
 
-    <div class="item-tarif mains_pieds">
-      <h3 class="mains_pieds-title">Soins des mains et Pieds</h3>
+        <div class="item-tarif mains_pieds">
+          <h3 class="mains_pieds-title">Soins des mains et Pieds</h3>
+        </div>
+      </div>
+
+      <!-- FORFAITS -->
+      <div class="list list-forfait">
+        <h2 class="forfait-title">Nos forfaits</h2>
+
+        <div class="forfait-item epilations">
+          <h3 class="epilation-tilte">Forfaits épilations</h3>
+        </div>
+
+        <div class="forfait-item corps">
+          <h3 class="corps-title">Forfaits soins corps</h3>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!-- FORFAITS -->
-  <div class="forfait">
-    <h2 class="forfait-title">Nos forfaits</h2>
 
-    <div class="forfait-item epilations">
-      <h3 class="epilation-tilte">Forfaits épilations</h3>
-    </div>
-
-    <div class="forfait-item corps">
-      <h3 class="corps-title">Forfaits soins corps</h3>
-    </div>
-  </div>
 
   <!-- A PROPOS -->
   <div class="about">
